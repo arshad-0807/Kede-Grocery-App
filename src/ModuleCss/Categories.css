@@ -1,0 +1,32 @@
+.manu_item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4cb32b;
+  /* padding-bottom: 10px; */
+  padding: 20px 10px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  z-index: -1;
+}
+.manu_item a {
+  text-decoration: none;
+
+  margin: 0 0 8px;
+  /* font-size: 20px; */
+  font-weight: 600;
+  color: #fff;
+}
+.layer-icon {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  opacity: 0.2;
+  transform: scale(3) rotate(25deg);
+}
+main {
+  margin-top: 80px;
+}

@@ -1,0 +1,20 @@
+.home-slider .swiper-slide {
+  width: 265px !important;
+  margin-right: 20px !important;
+}
+
+.cat-slider .swiper-slide {
+  width: auto !important;
+  border: 0;
+  background: transparent;
+  height: auto;
+  display: block;
+}
+
+.cat-slider .swiper-slide-active {
+  background: #4cb32b;
+  border-radius: 16px;
+}
+.cat-slider .swiper-slide-active img {
+  filter: brightness(100) grayscale(100%);
+}

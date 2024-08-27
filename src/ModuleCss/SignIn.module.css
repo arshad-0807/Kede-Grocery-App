@@ -1,0 +1,91 @@
+.banner {
+  background-image: url(/signinbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-position: bottom;
+}
+
+.banner_height {
+  height: 235px;
+  width: 100%;
+  display: block;
+}
+
+.form_content {
+  background-color: #fafefc;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.title_bar_wrap {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.title_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.title_tb {
+  font-size: 17px !important;
+  line-height: 1;
+}
+.cancel_icon {
+  filter: grayscale(100%) brightness(50%);
+}
+
+.input_wrap {
+  margin-bottom: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background: #fff;
+  height: 54px;
+  padding: 15px 25px;
+  border-radius: 16px;
+  border: 1px solid #cacaca;
+  width: 100%;
+  box-shadow: none;
+  appearance: none;
+  outline: 0;
+  box-sizing: border-box;
+  display: block;
+  max-width: 1024px;
+}
+
+input:focus {
+  border: 1px solid #4cb32b !important;
+  outline: none;
+}
+
+.forgot_password_wrap {
+  margin-bottom: 20px;
+}
+.forgot_password_wrap a {
+  color: #4cb32b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.forgot_password_wrap span {
+  font-size: 14px;
+}
+.signin_btn {
+  margin-bottom: 15px;
+}
